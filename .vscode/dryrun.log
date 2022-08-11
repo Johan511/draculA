@@ -1,0 +1,7 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/hhn/cs/dracula'
+g++ -g -c udp_client.cpp
+g++ -g -c ./test_server/testing.cpp 
+g++ -o main.out udp_client.o testing.o
+make: Leaving directory '/home/hhn/cs/dracula'
+ 
